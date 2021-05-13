@@ -1041,7 +1041,7 @@ img{
 	bottom: 0;
 	height: 9px;
 	width: 60px;
-	background-image: url(../images/icons/twist-line.png);
+	/*background-image: url(../images/icons/twist-line.png);*/
 	background-position: center;
 	content: "";
 	animation: slide 10s linear infinite;
