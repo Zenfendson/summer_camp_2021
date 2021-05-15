@@ -1025,6 +1025,29 @@ img{
 	margin-bottom: 15px;
 }
 
+.sec-title h1{
+	position:relative;
+	display: inline-block;
+	font-size:46px;
+	line-height:1.2em;
+	color:#3f4161;
+	font-weight:700;
+	padding-bottom: 30px;
+}
+
+.sec-title h1:before{
+	position:absolute;
+	left:0px;
+	bottom: 0;
+	height: 9px;
+	width: 60px;
+	/*background-image: url(../images/icons/twist-line.png);*/
+	background-position: center;
+	content: "";
+	animation: slide 10s linear infinite;
+	-webkit-animation: slide 10s linear infinite;
+}
+
 .sec-title h2{
 	position:relative;
 	display: inline-block;
@@ -1036,6 +1059,76 @@ img{
 }
 
 .sec-title h2:before{
+	position:absolute;
+	left:0px;
+	bottom: 0;
+	height: 9px;
+	width: 60px;
+	/*background-image: url(../images/icons/twist-line.png);*/
+	background-position: center;
+	content: "";
+	animation: slide 10s linear infinite;
+	-webkit-animation: slide 10s linear infinite;
+}
+
+.sec-title h3{
+	position:relative;
+	display: inline-block;
+	font-size:36px;
+	line-height:1.2em;
+	color:#3f4161;
+	font-weight:700;
+	padding-bottom: 30px;
+}
+
+.sec-title h3:before{
+	position:absolute;
+	left:0px;
+	bottom: 0;
+	height: 9px;
+	width: 60px;
+	/*background-image: url(../images/icons/twist-line.png);*/
+	background-position: center;
+	content: "";
+	animation: slide 10s linear infinite;
+	-webkit-animation: slide 10s linear infinite;
+}
+
+.sec-title h4{
+	position:relative;
+	display: inline-block;
+	font-size:32px;
+	line-height:1.2em;
+	color:#3f4161;
+	font-weight:700;
+	padding-bottom: 30px;
+}
+
+.sec-title h4:before{
+	position:absolute;
+	left:0px;
+	bottom: 0;
+	height: 9px;
+	width: 60px;
+	/*background-image: url(../images/icons/twist-line.png);*/
+	background-position: center;
+	content: "";
+	animation: slide 10s linear infinite;
+	-webkit-animation: slide 10s linear infinite;
+}
+
+.sec-title h5{
+	position:relative;
+	display: inline-block;
+	font-size:28px;
+	line-height:1.2em;
+	color:#3f4161;
+	font-weight:700;
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.sec-title h5:before{
 	position:absolute;
 	left:0px;
 	bottom: 0;
@@ -6276,6 +6369,7 @@ img{
 .pricing-block .upper-box{
 	position: relative;
 	padding: 25px 50px;
+	color: #3f4161;
 	border-bottom: 1px solid #ededf4;
 }
 
@@ -6319,12 +6413,16 @@ img{
 .pricing-block .feature-list li{
 	position: relative;
 	float: left;
-	width: 50%;
-	font-size: 16px;
+	width: 100%;
+	font-size: 24px;
 	line-height: 36px;
 	color: #7f8897;
 	font-weight: 500;
-	padding-left: 30px;
+	padding-left: 120px;
+}
+
+li.true{
+	margin: 10px;
 }
 
 .pricing-block .feature-list li:before{
@@ -6335,6 +6433,7 @@ img{
 	content: "\52";
 	font-family: 'ElegantIcons';
 	color: #2bd40f;
+	padding-left: 50px;
 }
 
 .pricing-block .feature-list li.false:before{
